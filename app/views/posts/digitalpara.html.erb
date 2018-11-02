@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+    <meta name="keywords" content="afiş">
+    <meta name="description" content="Af-İş">
+
+    <link rel="icon" href="http://www.af-is.com.tr/template/frontend/image/favicon.ico" type="image/x-icon">
+    <link href="http://www.af-is.com.tr/template/frontend/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://www.af-is.com.tr/template/frontend/css/index.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://www.af-is.com.tr/template/frontend/css/style.css">
+
+        <link rel="stylesheet" type="text/css" href="http://www.af-is.com.tr/template/frontend/css/iletisim.css">
+    </head>
+
+
+<body  style="background-color: #8fe2dd">
+
+   
+  <nav>
+    <div class="container-fluid">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <i class="fa fa-phone fa-6" aria-hidden="true"></i>
+                        <div class="tel">&nbsp;(0272) 214 53 18  GSM:0545 230 15 34</div>
+                    </div><!--colsm6-->
+                    <div class="col-sm-6">
+                        <div class="social">
+                            <a href="https://www.facebook.com/profile.php?id=100010701846021" target="_blank"><i class="fa fa-facebook fa-5" aria-hidden="true"></i></a>
+
+                            <a href=""><i class="fa fa-twitter fa-5" aria-hidden="true"></i></a>
+                            <a href="" target="_blank"><i class="fa fa-google-plus fa-5" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/turhan-g%C3%B6kpunar-92159751/" target="_blank"><i class="fa fa-linkedin fa-5" aria-hidden="true"></i></a>
+                            <a href="" target="_blank"><i class="fa fa-instagram fa-5" aria-hidden="true"></i></a>
+                        </div> 
+                    </div><!--colsm6-->
+                </div><!--row-->
+            </div><!--container-->
+        </div><!--header-top-->
+        
+    </div> <!--container-fluid-->
+</nav>
+  <nav id="ddmenu">
+    
+    <ul>
+        <li class="full-width">
+          
+              <li class="no-sub"><a class="top-heading" href="/posts/index">Dijital Girişimcilik</a></li>
+        </li>
+        
+        <li>
+            <a class="top-heading" href="/posts/danismanlikhizmet">Danışmanlık Hizmetleri</a>
+            <i class="caret"></i>
+            <div class="dropdown">
+                <div class="dd-inner">
+                    <ul class="column">
+                    
+                        <li><a href="/posts/kosgeb">Kosgeb</a></li>
+
+                        <li><a href="/posts/tkdkdestek">TKDK DESTEKLERİ</a></li>
+
+                        <li><a href="/posts/kkydpdestek">KKYDP DESTEKLERİ</a></li>
+
+                        <li><a href="/posts/kalkinmaajansdestek">KALKINMA AJANSI DESTEKLERİ</a></li>
+                            <li><a href="/posts/tubitakdestek">TÜBİTAK DESTEKLERİ</a></li>
+                                <li><a href="/posts/avrupabirlikdestek">AVRUPA BİRLİĞİ DESTEKLERİ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <li>
+            <li class="no-sub">
+            <a class="top-heading"href="/posts/markapatent">Marka Patent</a>
+        </li>
+            <li>
+            <a class="top-heading"href="/posts/digitalpara">Dijital Para</a>
+            <i class="caret"></i>
+            <div class="dropdown">
+                <div class="dd-inner">
+                    <ul class="column">
+                    
+                        <li><a href="/posts/gramaltin">Gram Altın</a></li>
+      <li><a href="/posts/dolar">Dolar</a></li>
+
+      <li><a href="/posts/euro">Euro</a></li>
+
+      <li><a href="/posts/bist">Bist-100</a></li>
+
+      <li><a href="/posts/bitcoin">Bitcoin</a></li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <li class="no-sub">
+            <a class="top-heading"href="/posts/iletisim">İletişim</a>
+        </li>
+       
+    </ul>
+</nav>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<style type="text/css">
+  @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
+
+.social-btns{
+    font-size: 22px;
+    list-style: none;
+}
+
+.social-btns li{
+    margin-bottom: 5px;
+}
+
+.social-btns li i{
+    font-size: 22px;
+}
+
+.social-btns .btn-facebook {
+  background-color: #38519f;
+  border-color: #293b75;
+  color: #ffffff;
+  min-width: 250px;
+}
+
+.social-btns .btn-facebook:hover {
+  color: #ffffff;
+  background-color: #293b75;
+}
+
+.social-btns .btn-twitter {
+  background-color: #00a8fa;
+  border-color: #048cce;
+  color: #ffffff;
+  min-width: 250px;
+}
+
+.social-btns .btn-twitter:hover {
+  color: #ffffff;
+  background-color: #048cce;
+}
+
+.social-btns .btn-linkedin {
+  background-color: #00629e;
+  border-color: #044a75;
+  color: #ffffff;
+  min-width: 250px;
+}
+
+.social-btns .btn-linkedin:hover {
+  color: #ffffff;
+  background-color: #044a75;
+}
+
+.social-btns .btn-google {
+  background-color: #df270b;
+  border-color: #a01b03;
+  color: #ffffff;
+  min-width: 250px;
+}
+
+.social-btns .btn-google:hover {
+  color: #ffffff;
+  background-color: #a01b03;
+}
+
+.social-btns .btn-tumblr{
+    background-color: #274665;
+    border-color: #182b3d;
+    color: #ffffff;
+    min-width: 250px;
+}
+
+.social-btns .btn-tumblr:hover {
+  color: #ffffff;
+  background-color: #182b3d;
+}
+
+.social-btns .btn-pinterest{
+    background-color: #cc0000;
+    border-color: #9b0404;
+    color: #ffffff;
+    min-width: 250px;
+}
+
+.social-btns .btn-pinterest:hover {
+  color: #ffffff;
+  background-color: #9b0404;
+}
+</style>
+<table style="background-color: #8fe2dd">
+<tr>
+<th>
+<div class="container-center" >
+  <div class="row" style="float: left;">
+  
+        <ul class="social-btns center-block">
+          <a href="/posts/altın">
+            <li><button class="btn btn-facebook"><i class=" fa fa-try pull-left" aria-hidden="true"></i>ALTIN</button></li></a>
+
+            <a href="/posts/dolar"><li><button class="btn btn-twitter"><i class="  fa fa-usd pull-left" aria-hidden="true"></i>DOLAR</button></li></a>
+
+            <a href="/posts/euro"><li><button class="btn btn-linkedin"><i class=" fa fa-euro pull-left" aria-hidden="true"></i>EURO</button></li>
+</a>
+<a href="/posts/bist">
+            <li><button class="btn btn-google"><i class=" fa fa-btc pull-left" aria-hidden="true"></i>BİST-100</button></li></a>
+<a href="/posts/bitcoin">
+            <li><button class="btn btn-tumblr"><i class=" fa fa-bitcoin pull-left" aria-hidden="true"></i>BİTCOİN</button></li></a>
+
+        </ul>
+    </div>
+</th>
+<th>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<head>
+    <style type="text/css">
+        /*-------------------------------*/
+/*      Code snippet by          */
+/*      @maridlcrmn              */
+/*-------------------------------*/
+
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 60px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #e84a64;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+
+}
+#fade-quote-carousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+#fade-quote-carousel .profile-circle p{
+ color: white;
+}
+    </style>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+</head>
+
+<section id="carousel">                 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+               
+                <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+                  <!-- Carousel indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#fade-quote-carousel" data-slide-to="0"></li>
+                    <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+                    <li data-target="#fade-quote-carousel" data-slide-to="2" class="active"></li>
+                    <li data-target="#fade-quote-carousel" data-slide-to="3"></li>
+                    <li data-target="#fade-quote-carousel" data-slide-to="4"></li>
+                    <li data-target="#fade-quote-carousel" data-slide-to="5"></li>
+                  </ol>
+                  <!-- Carousel items -->
+                  <div class="carousel-inner">
+                    <div class="item">
+                        <div class="profile-circle" style="background-color: rgba(0,0,0,.2);  "></div>
+                        <blockquote>
+                            <p>Genel olarak, her ülkenin kendi para birimi vardır. Örneğin, İsviçre'nin resmi para birimi İsviçre Frangı ve Japonya'nın resmi para birimi yen. Bir istisna Euro bölgesi içinde çoğu ülke için para olarak kullanılan euro olacaktır . En modern para birimlerinin temel özelliği, para biriminin kendisini oluşturan materyalin - örneğin bir dolarlık banknottaki - esasen değersiz olmasıdır, böylece para biriminin değerinin tamamı bir değişim aracı olarak değerdedir. 
+</p>
+                        </blockquote>   
+                    </div>
+                    <div class="item">
+                        <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
+                        <blockquote>
+                            <p >Bu para birimleri bir ülkeye özgü olabilirken, diğer ülkeler kendi ülkelerinde yasal ihale açmak için döviz kurmuşlardır. Örneğin, El Salvador ve Ekvador ABD Doları'nın yasal ihale olarak kullanılmasına izin veriyor ve ABD'nin 1792'de kurulmasından hemen sonra ABD sakinleri daha ağır oldukları için İspanyol paralarını kullandılar.
+</p>
+                        </blockquote>
+                    </div>
+                    <div class="active item">
+                        <div class="profile-circle" style="background-color: rgba(145,169,216,.2);"></div>
+                        <blockquote>
+                            <p>Bitcoin ve Litecoin gibi kripto para birimleri ve diğer çevrimiçi para birimleri ve markalı para birimleri dahil olmak üzere bazı para birimleri herhangi bir ülkeye bağlı değildir. Havayolu ve kredi kartı puanları veya oyun içi krediler gibi markalı para birimleri, bağlı oldukları ürünlerin veya hizmetlerin değeriyle ilişkili olarak değerlenir. Dijital para birimleri üzerindeki kontrol tamamen merkezi değildir ve bir dijital para biriminin döviz kuru, kısa bir süre içinde büyük ölçüde değişebilir.
+</p>
+                        </blockquote>
+                    </div>
+                    <div class="item">
+                        <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
+                        <blockquote>
+                            <p>Çoğu durumda, bir ülkenin merkez bankası , dolaşım için para ihraç etme hakkına sahiptir. Ana para birimi ile birlikte, bu bankalar genellikle madeni para şeklinde kesirli birimler çıkarırlar. Bunlar genellikle 1 / 100'üncü ve 1 / 4'üncü olarak gösterilir, ancak zaman zaman para biriminin ana biriminin 1 / 1000'i kadar küçük olabilir.<br></p>
+                        </blockquote>
+                    </div>
+                    <div class="item">
+                        <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
+                        <blockquote>
+                            <p>
+Yatırımcılar genellikle , dünyanın en çok ticareti yapılan piyasalardan biri olan döviz piyasasında para ticareti yapıyorlar  . Bir döviz kuru , iki paranın birbirlerine karşı takas edilebilme hızıdır. Bu oranlar 'yüzer' veya 'sabit' olabilir; Döviz kurundaki değişimin döviz piyasası ile ilişkili olarak değişmesi, sabit para biriminin altın veya döviz sepeti gibi başka bir para birimine bağlanmasıdır </p>
+                        </blockquote>
+                    </div>
+                    <div class="item">
+                        <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
+                        <blockquote>
+                            <p>Çoğu para birimleri, ABD doları gibi para piyasasında başka bir para birimi için takas edilebilir (veya dönüştürülebilir). Sert para ticareti yapmak isteyen uluslararası turistler gibi bireyler, genellikle herhangi bir kısıtlama veya yapay olarak sabit bir değere sahip olmayan bir değişim penceresinde veya bir bankada bunu yaparlar. Bu para birimleri tamamen dönüştürülebilir olarak kabul edilir. Kısmen dönüştürülebilir para birimleri, merkez bankasının kontrol ettiği para birimleridir. Merkez bankaları bazen sıcak para akışlarını ve uluslararası yatırımları kontrol etmek için bunu yapıyorlar . Dönüştürülemeyen para birimleri, döviz piyasasına katılmayan ve dönüştürülmesine izin verilmeyen para birimleridir</p>
+                        </blockquote>
+                    </div>
+                  </div>
+                </div>
+            </div>                          
+        </div>
+    </div>
+</section>
+</th>
+</tr>
+</table >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<style type="text/css">
+  @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
+
+.social-btns{
+    font-size: 22px;
+    list-style: none;
+}
+
+.social-btns li{
+    margin-bottom: 5px;
+}
+
+.social-btns li i{
+    font-size: 22px;
+}
+
+.social-btns .btn-facebook {
+  background-color: #38519f;
+  border-color: #293b75;
+  color: #ffffff;
+  min-width: 250px;
+}
+
+.social-btns .btn-facebook:hover {
+  color: #ffffff;
+  background-color: #293b75;
+}
+
+.social-btns .btn-twitter {
+  background-color: #00a8fa;
+  border-color: #048cce;
+  color: #ffffff;
+  min-width: 250px;
+}
+
+.social-btns .btn-twitter:hover {
+  color: #ffffff;
+  background-color: #048cce;
+}
+
+.social-btns .btn-linkedin {
+  background-color: #00629e;
+  border-color: #044a75;
+  color: #ffffff;
+  min-width: 250px;
+}
+
+.social-btns .btn-linkedin:hover {
+  color: #ffffff;
+  background-color: #044a75;
+}
+
+.social-btns .btn-google {
+  background-color: #df270b;
+  border-color: #a01b03;
+  color: #ffffff;
+  min-width: 250px;
+}
+
+.social-btns .btn-google:hover {
+  color: #ffffff;
+  background-color: #a01b03;
+}
+
+.social-btns .btn-tumblr{
+    background-color: #274665;
+    border-color: #182b3d;
+    color: #ffffff;
+    min-width: 250px;
+}
+
+.social-btns .btn-tumblr:hover {
+  color: #ffffff;
+  background-color: #182b3d;
+}
+
+.social-btns .btn-pinterest{
+    background-color: #cc0000;
+    border-color: #9b0404;
+    color: #ffffff;
+    min-width: 250px;
+}
+
+.social-btns .btn-pinterest:hover {
+  color: #ffffff;
+  background-color: #9b0404;
+}
+</style>
+<table style="background-color: #8fe2dd">
+<tr>
+<th>
+    <iframe height="475" width="237" src="https://ssltools.forexprostools.com/currency-converter/index.php?from=17&to=12&force_lang=10"></iframe><br /><table width="197"><tr><td><span style="font-size: 11px;color: #333333;text-decoration: none;">Döviz Çevirici <a href="https://tr.investing.com/" rel="nofollow" target="_blank" style="font-size: 11px;color: #06529D; font-weight: bold;" class="underline_link"></a></span></td></tr></table>
+</th>
+<th>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container">
+    
+<!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-2" data-slide-to="1"></li>
+        <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <div class="view">
+                <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2013/01/24/18/26/euro-76019_960_720.jpg" alt="First slide" style="height: 430px">
+                <div class="mask rgba-black-light"></div>
+            </div>
+            <div class="carousel-caption">
+              
+            </div>
+        </div>
+        <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2013/07/12/14/07/bag-147782_960_720.png" alt="Second slide" style="height: 350px">
+                <div class="mask rgba-black-strong"></div>
+            </div>
+            <div class="carousel-caption">
+                
+            </div>
+
+        </div>
+        <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/09/13/22/47/justice-2747368_960_720.png" alt="Third slide" style="height: 430px">
+                <div class="mask rgba-black-slight"></div>
+            </div>
+            <div class="carousel-caption">
+               
+            </div>
+        </div>
+           <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/12/17/14/12/bitcoin-3024279_960_720.jpg" alt="Third slide">
+                <div class="mask rgba-black-slight"></div>
+            </div>
+            <div class="carousel-caption">
+                
+            </div>
+        </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+    </a>
+    <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+                
+</div>
+</th>
+<th>
+    <script type="text/javascript">
+var altin_birimleri="GA";
+var arka_plan="FFFFFF";
+var cerceve="BF8282";
+var kutucuk="BABDCC";
+var piyasa_baslik="FFFFFF";
+var tur_baslik="050202";
+var fiyat_baslik="CC3300";
+var kutu_kose="oval";
+var genislik="220";
+var baglanti="acik";
+var paylasim="kapali";
+</script>
+<div style="width:220px;font-size:12px;text-align:right;"><a name="altinpiyasa" target="_blank"  href="http://www.piyasadoviz.com/dovizeklentileri">döviz ekleme</a></div><script type="text/javascript" charset="iso-8859-9" src="http://eklenti.piyasadoviz.com/altin.js"></script>
+<script type="text/javascript">
+var para_birimleri="USD-EUR-GBP-CHF";
+var arka_plan="FFFFFF";
+var cerceve="9E5454";
+var kutucuk="C3BFDE";
+var piyasa_baslik="FFFFFF";
+var tur_baslik="999999";
+var fiyat_baslik="CC3300";
+var kutu_kose="oval";
+var genislik="220";
+var bankalar="acik";
+var paylasim="kapali";
+</script>
+<div style="width:220px;font-size:12px;text-align:right;"><a name="piyasadoviz" target="_blank"  href="http://www.piyasadoviz.com/tcmb">merkez bankası</a></div><script type="text/javascript" charset="iso-8859-9" src="http://eklenti.piyasadoviz.com/doviz.js"></script>
+</th>
+</tr>
+</table >
+
+
+           
+
+     
+    
+   
+
+       
+
+
+</div>
+</div>
+</li>
+</ul>
+</nav>
+
+
+
+
+
+
+      
+
+    
+         
+
+<footer class="footer-section bg-with-black">
+    <head>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<!------ Include the above in your HEAD tag ---------->
+</head>
+  <style >
+    footer.footer-section {
+    background: rgba(0, 0, 0, 0) url("https://cdn.pixabay.com/photo/2012/02/22/19/28/africa-15428_960_720.jpg") no-repeat scroll left top / cover;
+    padding: 60px 0 50px;
+    background-size: cover;
+}
+.bg-with-black {
+    position: relative;
+}
+.footer-top-section {
+    margin: 0 0 47px;
+}
+.single-fta > img {
+    margin: 0 0 7px;
+    width: 170px;
+    height: 170px;
+}
+.single-fta ul.fta-list {
+    list-style: outside none none;
+    padding-left: 0;
+}
+.single-fta ul.fta-list li, .single-fta ul.fta-list li a {
+    color: #e5e5e5;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 36px;
+}
+.single-fta ul.fta-list {
+    list-style: outside none none;
+    padding-left: 0;
+}
+.fta-title {
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 0;
+    margin: 0 0 20px;
+}
+
+.fba-links {
+    text-align: right;
+}
+
+.fba-links ul li a {
+    color: #e5e5e5;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+.fba-links ul {
+    list-style: outside none none;
+    padding: 0;
+}
+.fba-links ul li {
+    display: inline-block;
+    margin-left: 28px;
+}
+.fba-copyright p {
+    color: #aaaaaa;
+    line-height: 30px;
+}
+  </style>
+        <div class="footer-top-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-fta">
+                            <img src="../assets/logo.jpg" alt="">
+                            <ul class="fta-list">
+                                <li><a href="/posts/index"><span class="glyphicon glyphicon-chevron-right"></span> Dijital Girişimcilik</a></li>
+                                <li><a href="/posts/danismanlikhizmet"><span class="glyphicon glyphicon-chevron-right"></span> Danışmanlık Hizmetleri</a></li>
+
+                                <li><a href="/posts/markapatent"><span class="glyphicon glyphicon-chevron-right"></span>Marka Patent</a></li>
+                                  <li><a href="/posts/digitalpara"><span class="glyphicon glyphicon-chevron-right"></span>Dijital Para</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-fta">
+                            <h3 class="fta-title">Danışmanlık Hizmetleri</h3>
+                            <ul class="fta-list">
+                                <li><a href="/posts/kosgeb">Kosgeb</a></li>
+
+                                <li><a href="/posts/tkdkdestek">TKDK DESTEKLERİ</a></li>
+
+                                <li><a href="/posts/kkydpdestek">KKYDP DESTEKLERİ</a></li>
+
+                                <li><a href="/posts/kalkinmaajansdestek">KALKINMA AJANSI DESTEKLERİ</a></li>
+                                <li><a href="/posts/tubitakdestek">TÜBİTAK DESTEKLERİ</a></li>
+                                <li><a href="/posts/avrupabirlikdestek">AVRUPA BİRLİĞİ DESTEKLERİ</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-fta">
+                            <h3 class="fta-title">Dijital Para</h3>
+                            <ul class="fta-list">
+                                <li><a href="/posts/gramaltin">Gram Altın</a></li>
+                                  <li><a href="/posts/dolar">Dolar</a></li>
+
+                                    <li><a href="/posts/euro">Euro</a></li>
+
+                                <li><a href="/posts/bist">Bist-100</a></li>
+                                 <li><a href="/posts/bitcoin">Bitcoin</a></li>
+
+
+                              
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-fta">
+                            <h3 class="fta-title">İletişim</h3>
+                            <ul class="fta-list">
+                                <li>Address: Cumhuriyet Mah. Kadınana Cad. No:118/2/ AFYONKARAHİSAR</li>
+                                <li>Phone: (0272) 214 53 18  GSM:0545 230 15 34</li>
+                                <li>Email: turhan@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="footer-bottom">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <div class="fba-copyright">
+                                        <p>AYŞEGÜL SELEK /YAZILIM MÜHENDİSİ tarafından design edildi.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <div class="fba-links">
+                                        <ul>
+                                            <li><a  href="/posts/index">Dijital Girişimcilik</a></li>
+
+                                            <li><a href="/posts/danismanlikhizmet">Danışmanlık Hizmetleri</a></li>
+
+                                            <li><a href="/posts/markapatent">Marka Patent</a></li>
+
+                                            <li><a href="/posts/digitalpara">Dijital Para</a></li>
+
+                                            <li><a href="/posts/iletisim">İletişim</a></li>
+                                        </ul>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

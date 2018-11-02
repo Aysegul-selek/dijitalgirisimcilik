@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+    <meta name="keywords" content="afiş">
+    <meta name="description" content="Af-İş">
+
+    <link rel="icon" href="http://www.af-is.com.tr/template/frontend/image/favicon.ico" type="image/x-icon">
+    <link href="http://www.af-is.com.tr/template/frontend/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://www.af-is.com.tr/template/frontend/css/index.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://www.af-is.com.tr/template/frontend/css/style.css">
+
+        <link rel="stylesheet" type="text/css" href="http://www.af-is.com.tr/template/frontend/css/iletisim.css">
+    </head>
+<body style="background-color:  #8fe2dd">
+     <header>
+    <div class="container-fluid">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <i class="fa fa-phone fa-6" aria-hidden="true"></i>
+                        <div class="tel">&nbsp;(0272) 214 53 18</div>
+                    </div><!--colsm6-->
+                    <div class="col-sm-6">
+                        <div class="social">
+                            <a href="https://www.facebook.com/profile.php?id=100010701846021" target="_blank"><i class="fa fa-facebook fa-5" aria-hidden="true"></i></a>
+
+                            <a href=""><i class="fa fa-twitter fa-5" aria-hidden="true"></i></a>
+                            <a href="" target="_blank"><i class="fa fa-google-plus fa-5" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/turhan-g%C3%B6kpunar-92159751/" target="_blank"><i class="fa fa-linkedin fa-5" aria-hidden="true"></i></a>
+                            <a href="" target="_blank"><i class="fa fa-instagram fa-5" aria-hidden="true"></i></a>
+                        </div> 
+                    </div><!--colsm6-->
+                </div><!--row-->
+            </div><!--container-->
+        </div><!--header-top-->
+        
+    </div> <!--container-fluid-->
+</header>
+ <nav id="ddmenu">
+    
+    <ul>
+        <li class="full-width">
+          
+              <li class="no-sub"><a class="top-heading" href="/posts/index">Dijital Girişimcilik</a></li>
+        </li>
+        
+        <li>
+            <a class="top-heading" href="/posts/danismanlikhizmet">Danışmanlık Hizmetleri</a>
+            <i class="caret"></i>
+            <div class="dropdown">
+                <div class="dd-inner">
+                    <ul class="column">
+                    
+                        <li><a href="/posts/kosgeb">Kosgeb</a></li>
+
+                        <li><a href="/posts/tkdkdestek">TKDK DESTEKLERİ</a></li>
+
+                        <li><a href="/posts/kkydpdestek">KKYDP DESTEKLERİ</a></li>
+
+                        <li><a href="/posts/kalkinmaajansdestek">KALKINMA AJANSI DESTEKLERİ</a></li>
+                            <li><a href="/posts/tubitakdestek">TÜBİTAK DESTEKLERİ</a></li>
+                                <li><a href="/posts/avrupabirlikdestek">AVRUPA BİRLİĞİ DESTEKLERİ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <li>
+            <li class="no-sub">
+            <a class="top-heading"href="/posts/markapatent">Marka Patent</a>
+        </li>
+            <li>
+            <a class="top-heading"href="/posts/digitalpara">Dijital Para</a>
+            <i class="caret"></i>
+            <div class="dropdown">
+                <div class="dd-inner">
+                    <ul class="column">
+                    
+                        <li><a href="/posts/gramaltin">Gram Altın</a></li>
+      <li><a href="/posts/dolar">Dolar</a></li>
+
+      <li><a href="/posts/euro">Euro</a></li>
+
+      <li><a href="/posts/bist">Bist-100</a></li>
+
+      <li><a href="/posts/bitcoin">Bitcoin</a></li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <li class="no-sub">
+            <a class="top-heading"href="/posts/iletisim">İletişim</a>
+        </li>
+       
+    </ul>
+</nav>
+
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<style type="text/css">
+  @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
+
+.social-btns{
+    font-size: 22px;
+    list-style: none;
+}
+
+.social-btns li{
+    margin-bottom: 5px;
+}
+
+.social-btns li i{
+    font-size: 22px;
+}
+
+.social-btns .btn-facebook {
+  background-color: #38519f;
+  border-color: #293b75;
+  color: #ffffff;
+  min-width: 250px;
+}
+
+.social-btns .btn-facebook:hover {
+  color: #ffffff;
+  background-color: #293b75;
+}
+
+.social-btns .btn-twitter {
+  background-color: #00a8fa;
+  border-color: #048cce;
+  color: #ffffff;
+  min-width: 250px;
+}
+
+.social-btns .btn-twitter:hover {
+  color: #ffffff;
+  background-color: #048cce;
+}
+
+.social-btns .btn-linkedin {
+  background-color: #00629e;
+  border-color: #044a75;
+  color: #ffffff;
+  min-width: 250px;
+}
+
+.social-btns .btn-linkedin:hover {
+  color: #ffffff;
+  background-color: #044a75;
+}
+
+.social-btns .btn-google {
+  background-color: #df270b;
+  border-color: #a01b03;
+  color: #ffffff;
+  min-width: 250px;
+}
+
+.social-btns .btn-google:hover {
+  color: #ffffff;
+  background-color: #a01b03;
+}
+
+.social-btns .btn-tumblr{
+    background-color: #274665;
+    border-color: #182b3d;
+    color: #ffffff;
+    min-width: 250px;
+}
+
+.social-btns .btn-tumblr:hover {
+  color: #ffffff;
+  background-color: #182b3d;
+}
+
+.social-btns .btn-pinterest{
+    background-color: #cc0000;
+    border-color: #9b0404;
+    color: #ffffff;
+    min-width: 250px;
+}
+
+.social-btns .btn-pinterest:hover {
+  color: #ffffff;
+  background-color: #9b0404;
+}
+</style>
+<table style="background-image: url(https://cdn.pixabay.com/photo/2017/09/16/21/42/justice-2756939_960_720.png); background-size: contain;">
+<tr>
+<th>
+    <style type="text/css">
+        ul#navigation {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    top: 10px;
+    left: 0px;
+    list-style: none;
+    z-index:9999;
+}
+span{font-size:1.3em !important;}
+span i{font-size:1.5em !important; padding-top:15px !important ;}
+ul#navigation li {
+    width: 100px;
+}
+ul#navigation li a {
+    display: block;
+    margin-left: -2px;
+    width: 100px;
+    height: 70px;    
+    background-color:blue;
+    background-repeat:no-repeat;
+    background-position:center center;
+    border:1px solid #AFAFAF;
+    -moz-border-radius:0px 10px 10px 0px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -khtml-border-bottom-right-radius: 10px;
+    -khtml-border-top-right-radius: 10px;
+    /*-moz-box-shadow: 0px 4px 3px #000;
+    -webkit-box-shadow: 0px 4px 3px #000;
+    */
+    opacity: 0.6;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+}
+
+    </style>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<div class="container">
+    <ul id="navigation">
+            <li class="home"> <br><br><br><a href="/posts/altın" title="Home"><span> Altın <i class="fa fa-try"></i></span></a></li>
+
+            <li class="about"><a href="/posts/dolar" title="About"><span>Dolar  <i class="  fa fa-usd"></i><br></span></a></li>
+            <li class="search"><a href="/posts/euro" title="Search"><span>Euro  <i class="fa fa-euro"></i><br></span></a></li>
+            <li class="contact"><a href="/posts/bist" title="Contact"><span>
+                Bist-100  <i class="fa fa-btc"></i><br></span></a></li>
+              <li class="contact"><a href="/posts/bitcoin" title="Contact"><span>BitCoin <br> <i class="fa fa-bitcoin"></i><br></span></a></li>
+        </ul>
+</div>
+<script type="text/javascript">
+      $(function() {
+                $('#navigation a').stop().animate({'marginLeft':'-55px'},1000);
+
+                $('#navigation > li').hover(
+                    function () {
+                        $('a',$(this)).stop().animate({'marginLeft':'-2px'},200);
+                    },
+                    function () {
+                        $('a',$(this)).stop().animate({'marginLeft':'-55px'},200);
+                    }
+                );
+            });
+</script>
+</th>
+<th >
+    <style>
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+body { 
+  font-family: 'Open Sans', 'sans-serif';
+  color: #cecece;
+  background: #222;
+  overflow: hidden;
+}
+
+.item-1, 
+.item-2, 
+.item-3 {
+    position: absolute;
+  display: block;
+    top: 2em;
+  
+  width: 40%;
+  
+  font-size: 1.3em;
+
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.item-1{
+    animation-name: anim-1;
+}
+
+.item-2{
+    animation-name: anim-2;
+}
+
+.item-3{
+    animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+    0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+    0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 25%; opacity: 1; }
+  66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+    0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}
+</style>
+
+<p class="item-1"><br>
+<br>
+<br>
+<br>Altın para basımında ve mücevhercilikte kullanılan altın alaşımlarının ayarlarının ülkeden ülkeye değişim gösterdiği bilinir. <br>
+Cumhuriyet Altınını 22 ayar kulpsuz altın para olarak tanımlayabiliriz. Ülkemizde Cumhuriyet Altını, farklı ebat ve ağırlıklarda bulunabilmektedir<br>
+Ziynet Altın
+Cumhuriyet döneminde üretilmeye başlanan Ata altınlarından önce, Osmanlı döneminde üretilmeye başlanıp, günümüze kadar gelen, geleneksel bir altın türüdür.</p>
+
+<p class="item-2"><br>
+<br>
+<br>
+
+<br>Gram altın, çeyrek altın, tam altın, cumhuriyet altını… Piyasadaki altın çeşitliliği altın almak ya da altına yatırım yapmak isteyenlerin aklını karıştırıyor olabilir.<br>
+Gram altın, günümüzde en sık tercih edilen altın türlerinden. Hem birikim aracı hem de hediyelik olarak kullanılan gram altın, İstanbul Altın Rafinerisi A.Ş tarafından üretilen tescilli bir altın ürünüdür. Bu altın en basit ifadesiyle külçe altın parçasıdır ve gramlar halinde satılır. 0.995 saflığında 24 ayar has altından ya da 0.916 saflığında 22 ayar has altından yapılabilir. Piyasada farklı gramajlarda gram altın bulmanız mümkündür.
+</p>
+
+<p class="item-3"><br>
+<br>
+<br>
+<br>Çeyrek, yarım, tam. Adlarından da anlaşılacağı üzere bir bütünün parçaları olarak satılan altın türüdür. Öncelikle tam altının özelliklerini açıklayalım. Tam altın, Cumhuriyet Altını ve Ata Lirası gibi farklı isimlerle de anılır. Tam altın olarak ifade edilen altın aslında Cumhuriyet Altını’dır ve ziynet ile sikke (meskük, Ata Lirası) olmak üzere iki gruba ayrılır.  Ziynet grubunda yer alan Cumhuriyet Altını22 ayar olup 7.016 gramdır. Sikke grubunda yer alan ise yine 22 ayar olup 7,216 gramdır. Çeyrek, yarım ve tam altının gram özelliklerini aşağıdaki tablodan detaylı olarak inceleyebilirsiniz.</p>
+</th>
+
+
+
+<th>
+<script type="text/javascript">
+var altin_birimleri="GA-C-T-Y-Y14-Y18-Y22-A";
+var arka_plan="237AB0";
+var cerceve="333333";
+var kutucuk="9EA9B0";
+var piyasa_baslik="B07979";
+var tur_baslik="080707";
+var fiyat_baslik="4F1B09";
+var kutu_kose="oval";
+var genislik="230";
+var baglanti="acik";
+var paylasim="kapali";
+</script>
+<div style="width:230px;font-size:12px;text-align:left;"><a name="altinpiyasa" target="_blank"  href="http://www.piyasadoviz.com/dovizeklentileri/altin">sitene altın ekle</a></div><script type="text/javascript" charset="iso-8859-9" src="http://eklenti.piyasadoviz.com/altin.js"></script>
+</th>
+</tr>
+</table >
+
+
+
+
+<head>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<!------ Include the above in your HEAD tag ---------->
+</head>
+<footer class="footer-section bg-with-black">
+    <head>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<!------ Include the above in your HEAD tag ---------->
+</head>
+  <style >
+    footer.footer-section {
+    background: rgba(0, 0, 0, 0) url("https://cdn.pixabay.com/photo/2012/02/22/19/28/africa-15428_960_720.jpg") no-repeat scroll left top / cover;
+    padding: 60px 0 50px;
+    background-size: cover;
+}
+.bg-with-black {
+    position: relative;
+}
+.footer-top-section {
+    margin: 0 0 47px;
+}
+.single-fta > img {
+    margin: 0 0 7px;
+    width: 170px;
+    height: 170px;
+}
+.single-fta ul.fta-list {
+    list-style: outside none none;
+    padding-left: 0;
+}
+.single-fta ul.fta-list li, .single-fta ul.fta-list li a {
+    color: #e5e5e5;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 36px;
+}
+.single-fta ul.fta-list {
+    list-style: outside none none;
+    padding-left: 0;
+}
+.fta-title {
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 0;
+    margin: 0 0 20px;
+}
+
+.fba-links {
+    text-align: right;
+}
+
+.fba-links ul li a {
+    color: #e5e5e5;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+.fba-links ul {
+    list-style: outside none none;
+    padding: 0;
+}
+.fba-links ul li {
+    display: inline-block;
+    margin-left: 28px;
+}
+.fba-copyright p {
+    color: #aaaaaa;
+    line-height: 30px;
+}
+  </style>
+        <div class="footer-top-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-fta">
+                            <img src="../assets/logo.jpg" alt="">
+                            <ul class="fta-list">
+                                <li><a href="/posts/index"><span class="glyphicon glyphicon-chevron-right"></span> Dijital Girişimcilik</a></li>
+                                <li><a href="/posts/danismanlikhizmet"><span class="glyphicon glyphicon-chevron-right"></span> Danışmanlık Hizmetleri</a></li>
+
+                                <li><a href="/posts/markapatent"><span class="glyphicon glyphicon-chevron-right"></span>Marka Patent</a></li>
+                                  <li><a href="/posts/digitalpara"><span class="glyphicon glyphicon-chevron-right"></span>Dijital Para</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-fta">
+                            <h3 class="fta-title">Danışmanlık Hizmetleri</h3>
+                            <ul class="fta-list">
+                                <li><a href="/posts/kosgeb">Kosgeb</a></li>
+
+                                <li><a href="/posts/tkdkdestek">TKDK DESTEKLERİ</a></li>
+
+                                <li><a href="/posts/kkydpdestek">KKYDP DESTEKLERİ</a></li>
+
+                                <li><a href="/posts/kalkinmaajansdestek">KALKINMA AJANSI DESTEKLERİ</a></li>
+                                <li><a href="/posts/tubitakdestek">TÜBİTAK DESTEKLERİ</a></li>
+                                <li><a href="/posts/avrupabirlikdestek">AVRUPA BİRLİĞİ DESTEKLERİ</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-fta">
+                            <h3 class="fta-title">Dijital Para</h3>
+                            <ul class="fta-list">
+                                <li><a href="/posts/gramaltin">Gram Altın</a></li>
+                                  <li><a href="/posts/dolar">Dolar</a></li>
+
+                                    <li><a href="/posts/euro">Euro</a></li>
+
+                                <li><a href="/posts/bist">Bist-100</a></li>
+                                 <li><a href="/posts/bitcoin">Bitcoin</a></li>
+
+
+                              
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-fta">
+                            <h3 class="fta-title">İletişim</h3>
+                            <ul class="fta-list">
+                                <li>Address: Cumhuriyet Mah. Kadınana Cad. No:118/2/ AFYONKARAHİSAR</li>
+                                <li>Phone: (0272) 214 53 18  GSM:0545 230 15 34</li>
+                                <li>Email: turhan@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="footer-bottom">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <div class="fba-copyright">
+                                        <p>AYŞEGÜL SELEK /YAZILIM MÜHENDİSİ tarafından design edildi.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <div class="fba-links">
+                                        <ul>
+                                            <li><a  href="/posts/index">Dijital Girişimcilik</a></li>
+
+                                            <li><a href="/posts/danismanlikhizmet">Danışmanlık Hizmetleri</a></li>
+
+                                            <li><a href="/posts/markapatent">Marka Patent</a></li>
+
+                                            <li><a href="/posts/digitalpara">Dijital Para</a></li>
+
+                                            <li><a href="/posts/iletisim">İletişim</a></li>
+                                        </ul>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

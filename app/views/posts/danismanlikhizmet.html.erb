@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+ <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+    <meta name="keywords" content="afiş">
+    <meta name="description" content="Af-İş">
+
+    <link rel="icon" href="http://www.af-is.com.tr/template/frontend/image/favicon.ico" type="image/x-icon">
+    <link href="http://www.af-is.com.tr/template/frontend/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://www.af-is.com.tr/template/frontend/css/index.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://www.af-is.com.tr/template/frontend/css/style.css">
+
+        <link rel="stylesheet" type="text/css" href="http://www.af-is.com.tr/template/frontend/css/iletisim.css">
+
+    </head>
+
+<body style="background-color:  #8fe2dd">
+    <nav>
+    <div class="container-fluid">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <i class="fa fa-phone fa-6" aria-hidden="true"></i>
+                        <div class="tel">&nbsp;(0272) 214 53 18</div>
+                    </div><!--colsm6-->
+                    <div class="col-sm-6">
+                        <div class="social">
+                            <a href="https://www.facebook.com/profile.php?id=100010701846021" target="_blank"><i class="fa fa-facebook fa-5" aria-hidden="true"></i></a>
+
+                            <a href=""><i class="fa fa-twitter fa-5" aria-hidden="true"></i></a>
+                            <a href="" target="_blank"><i class="fa fa-google-plus fa-5" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/turhan-g%C3%B6kpunar-92159751/" target="_blank"><i class="fa fa-linkedin fa-5" aria-hidden="true"></i></a>
+                            <a href="" target="_blank"><i class="fa fa-instagram fa-5" aria-hidden="true"></i></a>
+                        </div> 
+                    </div><!--colsm6-->
+                </div><!--row-->
+            </div><!--container-->
+        </div><!--header-top-->
+        
+    </div> <!--container-fluid-->
+</nav>
+      
+  <nav id="ddmenu">
+    
+    <ul>
+        <li class="full-width">
+          
+              <li class="no-sub"><a class="top-heading" href="/posts/index">Dijital Girişimcilik</a></li>
+        </li>
+        
+        <li>
+            <a class="top-heading" href="/posts/danismanlikhizmet">Danışmanlık Hizmetleri</a>
+            <i class="caret"></i>
+            <div class="dropdown">
+                <div class="dd-inner">
+                    <ul class="column">
+                    
+                        <li><a href="/posts/kosgeb">Kosgeb</a></li>
+
+                        <li><a href="/posts/tkdkdestek">TKDK DESTEKLERİ</a></li>
+
+                        <li><a href="/posts/kkydpdestek">KKYDP DESTEKLERİ</a></li>
+
+                        <li><a href="/posts/kalkinmaajansdestek">KALKINMA AJANSI DESTEKLERİ</a></li>
+                            <li><a href="/posts/tubitakdestek">TÜBİTAK DESTEKLERİ</a></li>
+                                <li><a href="/posts/avrupabirlikdestek">AVRUPA BİRLİĞİ DESTEKLERİ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <li>
+            <li class="no-sub">
+            <a class="top-heading"href="/posts/markapatent">Marka Patent</a>
+        </li>
+            <li>
+            <a class="top-heading"href="/posts/digitalpara">Dijital Para</a>
+            <i class="caret"></i>
+            <div class="dropdown">
+                <div class="dd-inner">
+                    <ul class="column">
+                    
+                        <li><a href="/posts/gramaltin">Gram Altın</a></li>
+      <li><a href="/posts/dolar">Dolar</a></li>
+
+      <li><a href="/posts/euro">Euro</a></li>
+
+      <li><a href="/posts/bist">Bist-100</a></li>
+
+      <li><a href="/posts/bitcoin">Bitcoin</a></li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <li class="no-sub">
+            <a class="top-heading"href="/posts/iletisim">İletişim</a>
+        </li>
+       
+    </ul>
+</nav>
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<style >
+    header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('http://sandbox.thewikies.com/vfe-generator/images/big-buck-bunny_poster.jpg') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+</style>
+<!------ Include the above in your HEAD tag ---------->
+
+<header>
+  <div class="overlay"></div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="https://ak6.picdn.net/shutterstock/videos/11727416/preview/stock-footage-businessman-drawing-an-ascending-financial-chart-touchscreen-colors-in-blue-and-white.webm" type="video/mp4">
+  </video>
+  <div class="container h-100">
+    <div class="d-flex text-center h-100">
+      <div class="my-auto w-100 text-white">
+        <h1 class="display-3">Dijital Girişimcilik</h1>
+        <h2>Danışmanlık Hizmetleri</h2>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+<div class="w3-container w3-teal" >
+    <style >
+        .w3-container w3-teal: h1{
+            background-color:#2B65EC 
+        }
+    </style>
+  <h1 >Danışmanlık Hizmetleri</h1>
+</div>
+<div  class="row">
+  <div class="col-md-8">
+    
+           <p><font size="3" face="Times">
+Bu da başka bir paragraf
+
+Firmamız yatırımcıların ihtiyaç duyduğu fizibilite araştırmalarından başlayarak yatırım için gerekli finansın sağlanması ve yatırımın hayata geçirilmesi için gerekli olan uygulama danışmanlığı hizmetlerini tek elden sunarak, gerek yatırımın hayat geçirilmesi gerekse de üretim ve hizmete başlaması aşamasına kadar hizmet ederek, müşterinin memnuniyetini esas almaktadır.Aynı zamanda yapılacak yatırımların ülke ekonomisine gerek bölgesel istihdam olanakların artırılmasına önem verilir. </font> </p>
+       
+  
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<style >
+  /**********************
+/***** Services *******
+/*********************/
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section{
+  padding: 60px 0;
+}
+section .section-title{
+  text-align:center;
+  color:#007b5e;
+  margin-bottom:50px;
+  text-transform:uppercase;
+}
+#what-we-do{
+  background:#ffffff;
+}
+#what-we-do .card{
+  padding: 1rem!important;
+  border: none;
+  margin-bottom:1rem;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
+#what-we-do .card:hover{
+  -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+  -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+  box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+#what-we-do .card .card-block{
+  padding-left: 50px;
+    position: relative;
+}
+#what-we-do .card .card-block a{
+  color: #007b5e !important;
+  font-weight:700;
+  text-decoration:none;
+}
+#what-we-do .card .card-block a i{
+  display:none;
+  
+}
+#what-we-do .card:hover .card-block a i{
+  display:inline-block;
+  font-weight:700;
+  
+}
+#what-we-do .card .card-block:before{
+  font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: #007b5e;
+    left: 0;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+#what-we-do .card .block-1:before{
+    content: "\f0e7";
+}
+#what-we-do .card .block-2:before{
+    content: "\f0eb";
+}
+#what-we-do .card .block-3:before{
+    content: "\f00c";
+}
+#what-we-do .card .block-4:before{
+    content: "\f209";
+}
+#what-we-do .card .block-5:before{
+    content: "\f0a1";
+}
+#what-we-do .card .block-6:before{
+    content: "\f218";
+}
+#what-we-do .card:hover .card-block:before{
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);  
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
+</style>
+<!-- Services section -->
+  <section id="what-we-do">
+    <div class="container-fluid">
+      <h2 class="section-title mb-2 h1">NELER YAPIYORUZ?</h2>
+      <p class="text-center text-muted h5">Çelebi Yazılım Ve Danışmanlık olarak Dijital Girişimcilik</p>
+      <div class="row mt-5">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+          <div class="card">
+            <div class="card-block block-1">
+              <h3 class="card-title">Hakkımızda</h3>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+          <div class="card">
+            <div class="card-block block-2">
+              <h3 class="card-title">Hizmetlerimiz</h3>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+          <div class="card">
+            <div class="card-block block-3">
+              <h3 class="card-title">Vizyon</h3>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+          <div class="card">
+            <div class="card-block block-4">
+              <h3 class="card-title">Referanslarımız</h3>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                         </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+          <div class="card">
+            <div class="card-block block-5">
+              <h3 class="card-title">Duyurular</h3>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+          <div class="card">
+            <div class="card-block block-6">
+              <h3 class="card-title">Ürünler ve Servisler</h3>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </section>
+</div>
+
+ <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<head>
+  
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Magic Stores s.r.o.">
+
+</head>
+
+
+         
+        
+<div class="col-md-4 col-lg-4" >
+    <div class="list-group">
+    <a class="list-group-item" href="/posts/tkdkdestek" style="background-color: #56c8c5">TKDK DESTEKLERİ</a>
+    <a class="list-group-item" href="/posts/kkydpdestek">KKYDP DESTEKLERİ</a>
+    <a class="list-group-item"href="/posts/kalkinmaajansdestek" style="background-color: #56c8c5">KALKINMA AJANSI DESTEKLERİ</a>
+    <a class="list-group-item" href="/posts/tubitakdestek">TÜBİTAK DESTEKLERİ</a>
+        <a class="list-group-item" href="/posts/avrupabirlikdestek" style="background-color: #56c8c5">AVRUPA BİRLİĞİ DESTEKLERİ</a>
+    <a class="list-group-item" href="/posts/kosgeb">KOSGEB DESTEKLERİ</a>
+  </div>
+</div>          
+    </div> 
+
+  </div>
+</div>
+</div>
+
+
+
+
+<footer class="footer-section bg-with-black">
+    <head>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<!------ Include the above in your HEAD tag ---------->
+</head>
+  <style >
+    footer.footer-section {
+    background: rgba(0, 0, 0, 0) url("https://cdn.pixabay.com/photo/2012/02/22/19/28/africa-15428_960_720.jpg") no-repeat scroll left top / cover;
+    padding: 60px 0 50px;
+    background-size: cover;
+}
+.bg-with-black {
+    position: relative;
+}
+.footer-top-section {
+    margin: 0 0 47px;
+}
+.single-fta > img {
+    margin: 0 0 7px;
+    width: 170px;
+    height: 170px;
+}
+.single-fta ul.fta-list {
+    list-style: outside none none;
+    padding-left: 0;
+}
+.single-fta ul.fta-list li, .single-fta ul.fta-list li a {
+    color: #e5e5e5;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 36px;
+}
+.single-fta ul.fta-list {
+    list-style: outside none none;
+    padding-left: 0;
+}
+.fta-title {
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 0;
+    margin: 0 0 20px;
+}
+
+.fba-links {
+    text-align: right;
+}
+
+.fba-links ul li a {
+    color: #e5e5e5;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+.fba-links ul {
+    list-style: outside none none;
+    padding: 0;
+}
+.fba-links ul li {
+    display: inline-block;
+    margin-left: 28px;
+}
+.fba-copyright p {
+    color: #aaaaaa;
+    line-height: 30px;
+}
+  </style>
+        <div class="footer-top-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-fta">
+                            <img src="../assets/logo.jpg" alt="">
+                            <ul class="fta-list">
+                                <li><a href="/posts/index"><span class="glyphicon glyphicon-chevron-right"></span> Dijital Girişimcilik</a></li>
+                                <li><a href="/posts/danismanlikhizmet"><span class="glyphicon glyphicon-chevron-right"></span> Danışmanlık Hizmetleri</a></li>
+
+                                <li><a href="/posts/markapatent"><span class="glyphicon glyphicon-chevron-right"></span>Marka Patent</a></li>
+                                  <li><a href="/posts/digitalpara"><span class="glyphicon glyphicon-chevron-right"></span>Dijital Para</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-fta">
+                            <h3 class="fta-title">Danışmanlık Hizmetleri</h3>
+                            <ul class="fta-list">
+                                <li><a href="/posts/kosgeb">Kosgeb</a></li>
+
+                                <li><a href="/posts/tkdkdestek">TKDK DESTEKLERİ</a></li>
+
+                                <li><a href="/posts/kkydpdestek">KKYDP DESTEKLERİ</a></li>
+
+                                <li><a href="/posts/kalkinmaajansdestek">KALKINMA AJANSI DESTEKLERİ</a></li>
+                                <li><a href="/posts/tubitakdestek">TÜBİTAK DESTEKLERİ</a></li>
+                                <li><a href="/posts/avrupabirlikdestek">AVRUPA BİRLİĞİ DESTEKLERİ</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-fta">
+                            <h3 class="fta-title">Dijital Para</h3>
+                            <ul class="fta-list">
+                                <li><a href="/posts/gramaltin">Gram Altın</a></li>
+                                  <li><a href="/posts/dolar">Dolar</a></li>
+
+                                    <li><a href="/posts/euro">Euro</a></li>
+
+                                <li><a href="/posts/bist">Bist-100</a></li>
+                                 <li><a href="/posts/bitcoin">Bitcoin</a></li>
+
+
+                              
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-fta">
+                            <h3 class="fta-title">İletişim</h3>
+                            <ul class="fta-list">
+                                <li>Address: Cumhuriyet Mah. Kadınana Cad. No:118/2/ AFYONKARAHİSAR</li>
+                                <li>Phone:(0272) 214 53 18  GSM:0545 230 15 34</li>
+                                <li>Email: turhan@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="footer-bottom">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <div class="fba-copyright">
+                                        <p>AYŞEGÜL SELEK /YAZILIM MÜHENDİSİ tarafından design edildi.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <div class="fba-links">
+                                        <ul>
+                                            <li><a  href="/posts/index">Dijital Girişimcilik</a></li>
+
+                                            <li><a href="/posts/danismanlikhizmet">Danışmanlık Hizmetleri</a></li>
+
+                                            <li><a href="/posts/markapatent">Marka Patent</a></li>
+
+                                            <li><a href="/posts/digitalpara">Dijital Para</a></li>
+
+                                            <li><a href="/posts/iletisim">İletişim</a></li>
+                                        </ul>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
